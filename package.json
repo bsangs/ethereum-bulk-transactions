@@ -1,0 +1,31 @@
+{
+  "name": "ethereum-bulk-transactions",
+  "version": "0.0.1",
+  "description": "Ethereum bulk transaction tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "build": "tsc",
+    "dev": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsangs/ethereum-bulk-transactions.git"
+  },
+  "author": "bsangs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bsangs/ethereum-bulk-transactions/issues"
+  },
+  "homepage": "https://github.com/bsangs/ethereum-bulk-transactions#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
